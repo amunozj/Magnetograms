@@ -28,10 +28,7 @@ You can find instructions for anaconda installation here:
   
 2. Run the following commands.  They will update your python environment and install astropy and sunpy.
 
-> conda update conda  
-> conda update --all  
-> conda install astropy  
-> conda config --append channels conda-forge  
+> conda config --add channels conda-forge  
 > conda install sunpy  
 
 ### Clone or Download this Repository ###
